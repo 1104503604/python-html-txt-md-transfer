@@ -87,7 +87,7 @@ md_files = find_md_files(folder_path)
 write_to_txt(md_files, output_file)
 
 
-with open(output_file, 'r') as f:
+with open(output_file, 'r', encoding='utf-8') as f:
     lines = f.readlines()
 
 with open('README.md', 'w') as f:
