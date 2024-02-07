@@ -1,6 +1,7 @@
 import os
 import re
 from bs4 import BeautifulSoup
+print("hello")
 
 current_directory = os.getcwd()
 folder_path = current_directory
